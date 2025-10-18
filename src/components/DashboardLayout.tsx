@@ -12,6 +12,7 @@ import {
   X
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import logo from "@/assets/hobish-logo.jpg";
 
 interface DashboardLayoutProps {
   children: ReactNode;
@@ -49,10 +50,16 @@ export const DashboardLayout = ({ children }: DashboardLayoutProps) => {
         )}
       >
         <div className="p-6">
-          <h1 className="text-3xl font-bold mb-8 flex items-center gap-2">
-            <GraduationCap size={32} />
-            HOBISH
-          </h1>
+          <div className="mb-8 flex items-center gap-3">
+            <img 
+              src={logo} 
+              alt="HOBISH Logo" 
+              className="w-14 h-14 rounded-full shadow-glow animate-pulse"
+            />
+            <h1 className="text-3xl font-bold text-primary-foreground">
+              HOBISH
+            </h1>
+          </div>
           
           <nav className="space-y-2">
             {menuItems.map((item) => {

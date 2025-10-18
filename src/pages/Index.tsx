@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 import { 
-  GraduationCap, 
+  GraduationCap,
   Users, 
   BookOpen, 
   CreditCard, 
@@ -12,6 +12,7 @@ import {
   ArrowRight
 } from "lucide-react";
 import heroImage from "@/assets/hero-image.jpg";
+import logo from "@/assets/hobish-logo.jpg";
 
 const features = [
   {
@@ -61,11 +62,20 @@ export default function Index() {
         <div className="relative max-w-7xl mx-auto px-4 py-24 md:py-32">
           <div className="text-center text-primary-foreground space-y-6 animate-fade-in">
             <div className="flex justify-center mb-6">
-              <GraduationCap size={80} className="animate-bounce-in" />
+              <img 
+                src={logo} 
+                alt="HOBISH Logo" 
+                className="w-32 h-32 rounded-full shadow-glow animate-pulse"
+              />
             </div>
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
               Welcome to HOBISH
             </h1>
+            <p className="text-lg md:text-xl opacity-90 max-w-2xl mx-auto">
+              Holy Family University Institute for Business and Biomedical Sciences
+              <br />
+              Simbock - Yaoundé, Cameroon
+            </p>
             <p className="text-xl md:text-2xl max-w-3xl mx-auto opacity-95">
               A modern, user-friendly School Management System designed with empathy 
               toward students, teachers, and parents.
@@ -200,12 +210,19 @@ export default function Index() {
       {/* Footer */}
       <footer className="bg-card border-t border-border py-12">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <div className="flex justify-center items-center gap-2 mb-4">
-            <GraduationCap size={32} className="text-primary" />
+          <div className="flex justify-center items-center gap-3 mb-4">
+            <img 
+              src={logo} 
+              alt="HOBISH Logo" 
+              className="w-12 h-12 rounded-full shadow-md"
+            />
             <span className="text-2xl font-bold text-foreground">HOBISH</span>
           </div>
           <p className="text-muted-foreground">
-            Modern School Management System © 2024
+            Holy Family University Institute - Simbock, Yaoundé
+          </p>
+          <p className="text-sm text-muted-foreground mt-2">
+            School Management System © 2024
           </p>
         </div>
       </footer>

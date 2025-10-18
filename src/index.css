@@ -53,7 +53,7 @@ All colors MUST be HSL.
     --shadow-sm: 0 2px 8px hsl(240 20% 15% / 0.05);
     --shadow-md: 0 4px 16px hsl(240 20% 15% / 0.08);
     --shadow-lg: 0 8px 32px hsl(240 20% 15% / 0.12);
-    --shadow-glow: 0 0 40px hsl(250 70% 60% / 0.3);
+    --shadow-glow: 0 0 60px hsl(142 76% 45% / 0.6), 0 0 30px hsl(250 70% 60% / 0.4);
     
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
