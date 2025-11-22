@@ -12,7 +12,7 @@ import {
   X
 } from "lucide-react";
 import { cn } from "@/lib/utils";
-import logo from "@/assets/hobish-logo.jpg";
+import logo from "@/assets/hobish-logo-small.jpg";
 
 interface DashboardLayoutProps {
   children: ReactNode;
