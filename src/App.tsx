@@ -15,6 +15,13 @@ const Messages = lazy(() => import("./pages/Messages"));
 const Staff = lazy(() => import("./pages/Staff"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
+// Admin pages
+const AdminLogin = lazy(() => import("./pages/AdminLogin"));
+const AdminDashboard = lazy(() => import("./pages/admin/AdminDashboard"));
+const AdminClasses = lazy(() => import("./pages/admin/Classes"));
+const AdminStudents = lazy(() => import("./pages/admin/Students"));
+const AdminDepartments = lazy(() => import("./pages/admin/Departments"));
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -33,6 +40,14 @@ const App = () => (
             <Route path="/results" element={<Results />} />
             <Route path="/messages" element={<Messages />} />
             <Route path="/staff" element={<Staff />} />
+            
+            {/* Admin routes */}
+            <Route path="/admin/login" element={<AdminLogin />} />
+            <Route path="/admin/dashboard" element={<AdminDashboard />} />
+            <Route path="/admin/classes" element={<AdminClasses />} />
+            <Route path="/admin/students" element={<AdminStudents />} />
+            <Route path="/admin/departments" element={<AdminDepartments />} />
+            
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
