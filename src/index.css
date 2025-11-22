@@ -25,18 +25,18 @@ All colors MUST be HSL.
     --secondary-foreground: 0 0% 100%;
 
     --muted: 240 20% 96%;
-    --muted-foreground: 240 5% 50%;
+    --muted-foreground: 240 6% 42%;
 
     --accent: 280 70% 65%;
     --accent-foreground: 0 0% 100%;
 
-    --success: 142 76% 45%;
+    --success: 142 76% 36%;
     --success-foreground: 0 0% 100%;
 
     --warning: 38 92% 50%;
     --warning-foreground: 0 0% 100%;
 
-    --destructive: 0 84% 60%;
+    --destructive: 0 84% 50%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 240 20% 92%;
@@ -95,14 +95,14 @@ All colors MUST be HSL.
     --secondary-foreground: 0 0% 100%;
 
     --muted: 240 15% 15%;
-    --muted-foreground: 240 5% 60%;
+    --muted-foreground: 240 5% 65%;
 
     --accent: 280 70% 65%;
     --accent-foreground: 0 0% 100%;
 
-    --success: 142 76% 45%;
-    --warning: 38 92% 50%;
-    --destructive: 0 84% 60%;
+    --success: 142 76% 50%;
+    --warning: 38 92% 60%;
+    --destructive: 0 84% 65%;
 
     --border: 240 15% 18%;
     --input: 240 15% 18%;
