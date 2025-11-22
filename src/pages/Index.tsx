@@ -65,7 +65,7 @@ export default function Index() {
               <img 
                 src={logo} 
                 alt="HOBISH Logo" 
-                className="w-32 h-32 rounded-full shadow-glow animate-pulse"
+                className="w-32 h-32 rounded-full shadow-glow animate-pulse object-cover"
               />
             </div>
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
@@ -214,7 +214,7 @@ export default function Index() {
             <img 
               src={logo} 
               alt="HOBISH Logo" 
-              className="w-12 h-12 rounded-full shadow-md"
+              className="w-12 h-12 rounded-full shadow-md object-cover"
             />
             <span className="text-2xl font-bold text-foreground">HOBISH</span>
           </div>

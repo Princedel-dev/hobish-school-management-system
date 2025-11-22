@@ -54,7 +54,7 @@ export const DashboardLayout = ({ children }: DashboardLayoutProps) => {
             <img 
               src={logo} 
               alt="HOBISH Logo" 
-              className="w-14 h-14 rounded-full shadow-glow animate-pulse"
+              className="w-14 h-14 rounded-full shadow-glow animate-pulse object-cover"
             />
             <h1 className="text-3xl font-bold text-primary-foreground">
               HOBISH
